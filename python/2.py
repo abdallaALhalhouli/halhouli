@@ -7,3 +7,5 @@ print("hallo this is "+ name.upper() +  " and this is my first python code")
 print(name.isupper())
 #name.islower() is used to check if all the letters in the name are small or not and it will return true or false
 print(name.islower())
+print(name.upper().islower())
+print(name.lower().isupper())
